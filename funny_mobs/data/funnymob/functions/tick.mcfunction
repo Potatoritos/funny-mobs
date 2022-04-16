@@ -10,3 +10,4 @@ scoreboard players reset @a[scores={pfm_sneaking=1..}] pfm_sneaking
 
 #schedule function funnymob:tick 2t
 
+function funnymob:enderdragon/tick

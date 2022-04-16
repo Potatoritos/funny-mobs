@@ -1,0 +1,1 @@
+function funnymob:enderdragon/vamp

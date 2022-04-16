@@ -18,3 +18,4 @@ function funnymob:tick_2s
 
 tellraw @a {"text": "Potatoritos Funny Mobs v2 loaded", "color": "gold"}
 
+function funnymob:enderdragon/load
