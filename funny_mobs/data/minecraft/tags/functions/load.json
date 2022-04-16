@@ -1,0 +1,8 @@
+{
+    "values": [
+        "nnmath:setup",
+        "cw_hp_control:init",
+        "cw_hp:init",
+        "funnymob:load"
+    ]
+}

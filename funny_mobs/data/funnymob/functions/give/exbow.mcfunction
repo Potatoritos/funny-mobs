@@ -1,0 +1,1 @@
+give @s minecraft:crossbow{display:{Name:'{"text":"Explosive Crossbow","color":"light_purple","italic":false}'},RepairCost:999999,Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],pfm_exbow:1b,Damage:364} 1

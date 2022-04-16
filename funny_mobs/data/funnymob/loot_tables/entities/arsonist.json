@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Durian-Flavoured Stimpack\",\"color\":\"light_purple\",\"italic\":false}'},CustomPotionEffects:[{Id:1b,Amplifier:4b,Duration:120},{Id:3b,Amplifier:4b,Duration:120},{Id:5b,Amplifier:2b,Duration:120},{Id:7b,Amplifier:1b,Duration:1},{Id:9b,Amplifier:0b,Duration:240},{Id:17b,Amplifier:4b,Duration:200},{Id:19b,Amplifier:4b,Duration:200}],CustomPotionColor:16740096}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
