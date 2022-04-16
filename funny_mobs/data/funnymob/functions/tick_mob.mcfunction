@@ -3,6 +3,7 @@ effect give @s minecraft:water_breathing 1
 #tag @s add disp_hp
 
 execute as @e[distance=..1] at @s run function funnymob:kill_boat
+execute as @e[distance=..4] at @s run function funnymob:kill_crystal
 
 execute as @s[tag=pfm_glue_gunner] at @s run function funnymob:ggunner/ggunner_tick
 
