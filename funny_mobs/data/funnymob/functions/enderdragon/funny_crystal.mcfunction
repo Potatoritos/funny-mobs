@@ -1,0 +1,1 @@
+execute at @e[type=ender_dragon,sort=arbitrary,limit=1] run summon creeper ~ ~-5 ~ {Tags:["pfm_remove_lava_near"],ActiveEffects:[{Id:12b,Amplifier:78b,Duration:999999},{Id:1b,Amplifier:78b,Duration:999999}],Passengers:[{id:"minecraft:end_crystal",Passengers:[{id:"minecraft:end_crystal"}]}]}
