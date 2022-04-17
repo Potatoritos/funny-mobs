@@ -7,5 +7,6 @@ scoreboard players operation dragon_next_skill pfm_enderdragon_vars += 1 pfm_con
 execute if score dragon_next_skill pfm_enderdragon_vars matches 3 run scoreboard players set dragon_next_skill pfm_enderdragon_vars 0
 
 tag @e[type=ender_dragon] add pfm_mob_team
+function funnymob:enderdragon/bossspawn
 
 schedule function funnymob:enderdragon/skills 10s replace

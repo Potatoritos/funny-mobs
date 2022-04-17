@@ -24,5 +24,7 @@ scoreboard players set 90 pfm_constants 90
 scoreboard players set 100 pfm_constants 100
 scoreboard players set 120 pfm_constants 120
 scoreboard players set 140 pfm_constants 140
+scoreboard players set 150 pfm_constants 150
+scoreboard players set 195 pfm_constants 195
 scoreboard players set 200 pfm_constants 200
 scoreboard players set 300 pfm_constants 300
