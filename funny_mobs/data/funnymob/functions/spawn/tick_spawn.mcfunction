@@ -9,4 +9,9 @@ execute in overworld as @s[type=skeleton,tag=!scanned_pstroker] at @s run functi
 execute in the_nether as @s[type=skeleton,tag=!scanned_pstroker] at @s run function funnymob:spawn/pstroker
 
 
-execute as @s[type=enderman,tag=!scanned_boss] in the_end at @s run function funnymob:spawn/celsius
+execute as @s[type=shulker,tag=!scanned_boss] in the_end at @s run function funnymob:spawn/celsius
+execute as @s[type=shulker,tag=!scanned_boss] in the_end at @s run function funnymob:spawn/statue
+execute as @s[type=shulker,tag=!scanned_boss] in the_end at @s run function funnymob:spawn/psex
+execute as @s[type=shulker,tag=!scanned_boss] in the_end run scoreboard players add celsius pfm_mobcount 1
+execute as @s[type=shulker,tag=!scanned_boss] in the_end run tag @s add scanned_boss
+execute if score celsius pfm_mobcount matches 81.. run scoreboard players set celsius pfm_mobcount 0
