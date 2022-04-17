@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+      "nbt": "{CustomPotionEffects:[{Id:2b,Amplifier:107b,Duration:80},{Id:4b,Amplifier:0b,Duration:120},{Id:18b,Amplifier:0b,Duration:40},{Id:19b,Amplifier:2b,Duration:80}],CustomPotionColor:15662848}"
+    },
+    "title": "The Block Solvent",
+    "description": "Kill a glue gunner",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"pfm_glue_gunner\"]}"
+        }
+      }
+    }
+  },
+  "parent": "funnymob:root"
+}

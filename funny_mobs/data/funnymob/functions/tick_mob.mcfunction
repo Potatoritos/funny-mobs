@@ -13,4 +13,8 @@ execute as @s[tag=pfm_statue] at @s run function funnymob:statue/tick
 execute as @s[tag=pfm_healing_totem] at @s run function funnymob:statue/tick_htotem
 execute as @s[tag=pfm_stasis_field] at @s run function funnymob:statue/tick_sfield
 
+execute as @s[tag=pfm_push_stroker] at @s run function funnymob:pstroker/tick_nonex
+execute as @s[tag=pfm_push_stroker_ex] at @s run function funnymob:pstroker/tick
+execute as @s[tag=pfm_push_rover] at @s run function funnymob:pstroker/tick_rover
+
 

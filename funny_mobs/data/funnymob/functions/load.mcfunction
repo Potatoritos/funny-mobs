@@ -12,6 +12,7 @@ function funnymob:exbow/load
 function funnymob:ggunner/load
 function funnymob:celsius/load
 function funnymob:statue/load
+function funnymob:pstroker/load
 
 function funnymob:tick_1s
 function funnymob:tick_2s

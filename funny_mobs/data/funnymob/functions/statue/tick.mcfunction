@@ -10,15 +10,14 @@ execute as @s[scores={pfm_statue_a1=350,pfm_mob_hp=..70}] run execute as @a[game
 
 execute as @s[scores={pfm_statue_a1=400}] run execute as @a[gamemode=survival,distance=..20] at @s run function funnymob:summon/sstatue
 
-execute as @s[scores={pfm_statue_a3=320}] run function funnymob:skill/fw3
-execute as @s[scores={pfm_statue_a3=320}] run particle minecraft:large_smoke ~ ~ ~ 1 1 1 0.3 20 force
-execute as @s[scores={pfm_statue_a3=320}] run tellraw @a[distance=..40] [{"text":"Statue","color":"red"},{"text":" activated ","color":"gray"},{"text":"Seismic Shift","color":"red"},{"text":"!","color":"gray"}]
+execute as @s[scores={pfm_statue_a3=300}] run function funnymob:skill/fw3
+execute as @s[scores={pfm_statue_a3=300}] run tellraw @a[distance=..40] [{"text":"Statue","color":"red"},{"text":" activated ","color":"gray"},{"text":"Seismic Shift","color":"red"},{"text":"!","color":"gray"}]
+execute as @s[scores={pfm_statue_a3=320..}] run particle minecraft:large_smoke ~ ~ ~ 1 1 1 0.3 1 force
 execute as @s[scores={pfm_statue_a3=320..}] run scoreboard players operation @s pfm_statue_a3_n = @s pfm_statue_a3
 execute as @s[scores={pfm_statue_a3=320..}] run scoreboard players operation @s pfm_statue_a3_n %= 6 pfm_constants
 execute if score @s pfm_statue_a3_n matches 0 run execute as @a[gamemode=survival,distance=..3] at @s unless block ~ ~ ~ minecraft:bedrock run function funnymob:statue/sink
 
-execute if score @s pfm_statue_a3_n matches 0 run playsound minecraft:item.trident.hit neutral @a ~ ~ ~ 2 0
-execute if score @s pfm_statue_a3_n matches 4 run playsound minecraft:item.trident.hit neutral @a ~ ~ ~ 2 0
+execute if score @s pfm_statue_a3_n matches 0 run playsound minecraft:entity.wither.break_block neutral @a ~ ~ ~ 0.2 0
 
 execute as @s[scores={pfm_statue_a3=140..}] run scoreboard players operation @s pfm_statue_a3_n = @s pfm_statue_a3
 
