@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Helicopter Helmet\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Look up to fly\",\"color\":\"gray\",\"italic\":true}','{\"text\":\" \"}']},pfm_helicopter_helmet:1b}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Liquid Nitrogen Cannon\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"For 6s, hit targets will take 1 hp\",\"color\":\"gray\",\"italic\":true}','[{\"text\":\"of \",\"color\":\"gray\",\"italic\":true},{\"text\":\"True Damage\",\"color\":\"white\",\"bold\":true,\"italic\":true},{\"text\":\" per 3m travelled\",\"color\":\"gray\",\"bold\":false,\"italic\":true}]','{\"text\":\" \"}']},RepairCost:9999,Damage:183,pfm_ncannon:1b,Enchantments:[{id:\"minecraft:punch\",lvl:3s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:flint_and_steel",
+      "item": "minecraft:anvil",
       "nbt": "{Enchantments:[{}]}"
     },
-    "title": "Pleasure to Burn",
-    "description": "Kill Celsius 233",
+    "title": "Heavy-Light Decomposition",
+    "description": "Kill Push Stroker EX",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -16,10 +16,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"pfm_celsius\"]}"
+          "nbt": "{Tags:[\"pfm_push_stroker_ex\"]}"
         }
       }
     }
   },
-  "parent": "funnymob:arsonist"
+  "parent": "funnymob:push_stroker"
 }

@@ -3,6 +3,7 @@ scoreboard objectives add pfm_mobdmg_hp dummy
 
 #function funnymob:util/load_hp_display
 
+# this is before i knew of the matches keyword :monkey:
 scoreboard objectives add pfm_constants dummy
 scoreboard players set 0 pfm_constants 0
 scoreboard players set 1 pfm_constants 1

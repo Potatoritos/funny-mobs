@@ -14,8 +14,11 @@ function funnymob:celsius/load
 function funnymob:statue/load
 function funnymob:pstroker/load
 
+function funnymob:friendlystatue/load
+
 function funnymob:tick_1s
 function funnymob:tick_2s
+function funnymob:tick_5s
 
 tellraw @a {"text": "Potatoritos Funny Mobs v2 loaded", "color": "gold"}
 

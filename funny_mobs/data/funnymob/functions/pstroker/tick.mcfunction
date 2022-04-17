@@ -6,12 +6,12 @@ effect give @s minecraft:fire_resistance 1 0 false
 scoreboard players add @s pfm_psex_a1 1
 scoreboard players add @s pfm_psex_a2 1
 
-execute if score @s pfm_psex_a1 matches 160 run function funnymob:skill/fw1
+execute if score @s pfm_psex_a1 matches 160 run function funnymob:skill/fw3
 execute if score @s pfm_psex_a1 matches 160 run tellraw @a[distance=..40] [{"text":"Push Stroker EX","color":"red"},{"text":" activated ","color":"gray"},{"text":"Push Rover","color":"red"},{"text":"!","color":"gray"}]
 execute if score @s pfm_psex_a1 matches 180 run execute as @a[distance=..40,gamemode=survival] at @s run function funnymob:pstroker/a1
 
 
-execute if score @s pfm_psex_a2 matches 320 run function funnymob:skill/fw3
+execute if score @s pfm_psex_a2 matches 320 run function funnymob:skill/fw1
 execute if score @s pfm_psex_a2 matches 320 run tellraw @a[distance=..40] [{"text":"Push Stroker EX","color":"red"},{"text":" activated ","color":"gray"},{"text":"Anti-Gravity Mode","color":"red"},{"text":"!","color":"gray"}]
 
 execute if score @s pfm_psex_a2 matches 340 run tp @s @a[limit=1,sort=nearest,gamemode=survival,distance=..40]

@@ -17,4 +17,6 @@ execute as @s[tag=pfm_push_stroker] at @s run function funnymob:pstroker/tick_no
 execute as @s[tag=pfm_push_stroker_ex] at @s run function funnymob:pstroker/tick
 execute as @s[tag=pfm_push_rover] at @s run function funnymob:pstroker/tick_rover
 
+execute as @s[tag=pfm_spawn] at @s run function funnymob:tick_spawn
+
 

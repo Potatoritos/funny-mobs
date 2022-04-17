@@ -1,12 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:flint_and_steel",
-      "nbt": "{Enchantments:[{}]}"
+      "item": "minecraft:water_bucket"
     },
-    "title": "Pleasure to Burn",
-    "description": "Kill Celsius 233",
-    "frame": "challenge",
+    "title": "Extinguished",
+    "description": "Kill an arsonist",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -16,10 +15,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"pfm_celsius\"]}"
+          "nbt": "{Tags:[\"pfm_arsonist\"]}"
         }
       }
     }
   },
-  "parent": "funnymob:arsonist"
+  "parent": "funnymob:root"
 }
