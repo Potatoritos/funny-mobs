@@ -1,5 +1,3 @@
-say hi
-
 scoreboard players operation @s pfm_ncannon_dmg_hp = @s pfm_ncannon_dmg_stored
 scoreboard players operation @s pfm_ncannon_dmg_hp /= 200 pfm_constants
 
