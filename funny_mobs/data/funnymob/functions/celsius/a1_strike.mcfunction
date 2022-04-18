@@ -4,12 +4,7 @@ execute as @a[limit=1,sort=nearest,gamemode=survival,distance=..40] at @s anchor
 
 execute as @a[limit=1,sort=nearest,gamemode=survival,tag=pfm_celsius_facing] at @s run playsound minecraft:item.shield.block neutral @a ~ ~ ~ 1
 
-execute as @a[limit=1,sort=nearest,gamemode=survival,tag=!pfm_celsius_facing] at @s run playsound minecraft:entity.firework_rocket.blast neutral @a ~ ~ ~
-execute as @a[limit=1,sort=nearest,gamemode=survival,tag=!pfm_celsius_facing] at @s run playsound minecraft:entity.player.hurt_on_fire neutral @a ~ ~ ~ 1
-execute as @a[limit=1,sort=nearest,gamemode=survival,tag=!pfm_celsius_facing] at @s run particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0.5 20 force
-execute as @a[limit=1,sort=nearest,gamemode=survival,tag=!pfm_celsius_facing] at @s run effect clear @s minecraft:absorption
-execute as @a[limit=1,sort=nearest,gamemode=survival,tag=!pfm_celsius_facing] at @s run scoreboard players operation @s hp_dmg += 5 pfm_constants
-execute as @a[limit=1,sort=nearest,gamemode=survival,tag=!pfm_celsius_facing,predicate=funnymob:is_burning] at @s run scoreboard players operation @s hp_dmg += 3 pfm_constants
+execute as @a[limit=1,sort=nearest,gamemode=survival,tag=!pfm_celsius_facing,distance=..40] at @s run function funnymob:celsius/a1_strike_hit
 
 tag @p remove pfm_celsius_facing
 
