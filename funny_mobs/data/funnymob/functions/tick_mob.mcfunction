@@ -20,3 +20,6 @@ execute as @s[tag=pfm_push_rover] at @s run function funnymob:pstroker/tick_rove
 execute as @s[tag=pfm_spawn] at @s run function funnymob:tick_spawn
 
 
+execute as @s[tag=pfm_boss] at @s run execute as @a[distance=40..330,sort=nearest,limit=1] at @s run execute as @e[tag=pfm_boss,distance=40..330] run effect give @s minecraft:resistance 1 5
+
+execute as @s[tag=pfm_boss] at @s run execute as @a[distance=..40,sort=nearest,limit=1] run effect clear @e[tag=pfm_boss,distance=..40] minecraft:resistance
