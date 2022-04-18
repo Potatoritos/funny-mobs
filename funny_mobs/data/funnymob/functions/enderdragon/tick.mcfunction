@@ -1,5 +1,3 @@
-function funnymob:enderdragon/vamp
-
 execute at @e[tag=pfm_remove_lava_near] run fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air replace lava
 
 # remove area effect clouds from funny crystals exploding
