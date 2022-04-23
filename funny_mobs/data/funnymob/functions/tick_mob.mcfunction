@@ -2,6 +2,8 @@ execute as @s store result score @s pfm_mob_hp run data get entity @s Health
 effect give @s minecraft:water_breathing 1
 #tag @s add disp_hp
 
+execute as @s[type=minecraft:zombie] at @s if block ~ ~ ~ minecraft:water run tp @s ~ ~0.2 ~
+
 execute as @e[distance=..1] at @s run function funnymob:kill_boat
 execute as @e[distance=..4] at @s run function funnymob:kill_crystal
 
