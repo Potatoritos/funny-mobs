@@ -8,6 +8,6 @@ execute if score dragon_hp pfm_enderdragon_vars < 250 pfm_constants if score dra
 execute if score dragon_hp pfm_enderdragon_vars < 250 pfm_constants if score dragon_stage4_reached pfm_enderdragon_vars matches 0 in the_end at @e[type=ender_dragon,sort=arbitrary,limit=1] run tellraw @a[distance=..500] [{"text":"Ender Dragon ","color":"red"},{"text":"hp reached 250. ","color":"gray"},{"text":"Push Stroker EX ","color":"red"},{"text":"summoned!","color":"gray"}]
 execute if score dragon_hp pfm_enderdragon_vars < 250 pfm_constants run scoreboard players set dragon_stage4_reached pfm_enderdragon_vars 1
 
-execute if score dragon_hp pfm_enderdragon_vars > 195 pfm_constants run scoreboard players set dragon_stage2_reached pfm_enderdragon_vars 0
-execute if score dragon_hp pfm_enderdragon_vars > 195 pfm_constants run scoreboard players set dragon_stage3_reached pfm_enderdragon_vars 0
-execute if score dragon_hp pfm_enderdragon_vars > 195 pfm_constants run scoreboard players set dragon_stage4_reached pfm_enderdragon_vars 0
+execute if score dragon_hp pfm_enderdragon_vars > 390 pfm_constants run scoreboard players set dragon_stage2_reached pfm_enderdragon_vars 0
+execute if score dragon_hp pfm_enderdragon_vars > 390 pfm_constants run scoreboard players set dragon_stage3_reached pfm_enderdragon_vars 0
+execute if score dragon_hp pfm_enderdragon_vars > 390 pfm_constants run scoreboard players set dragon_stage4_reached pfm_enderdragon_vars 0

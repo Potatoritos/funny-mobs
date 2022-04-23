@@ -30,3 +30,4 @@ scoreboard players set 200 pfm_constants 200
 scoreboard players set 250 pfm_constants 250
 scoreboard players set 300 pfm_constants 300
 scoreboard players set 350 pfm_constants 350
+scoreboard players set 390 pfm_constants 390
