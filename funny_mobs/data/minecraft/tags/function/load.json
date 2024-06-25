@@ -1,5 +1,7 @@
 {
     "values": [
-        "funnymob:load"
-    ]
+        "funnymob:load",
+        "cw_hp_control:init",
+        "cw_hp:init"
+    ]       
 }
