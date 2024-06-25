@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "effects": {
+      "minecraft:fire_resistance": {
+        "amplifier": 107,
+        "duration": 121
+      }
+    }
+  }
+}
