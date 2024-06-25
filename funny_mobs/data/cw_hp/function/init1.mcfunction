@@ -1,1 +1,0 @@
-setblock 76891 0 76891 oak_sign

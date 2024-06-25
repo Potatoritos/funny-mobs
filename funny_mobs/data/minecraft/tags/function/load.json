@@ -2,6 +2,6 @@
     "values": [
         "funnymob:load",
         "cw_hp_control:init",
-        "cw_hp:init"
+        "cw_hp_disp:load"
     ]       
 }
