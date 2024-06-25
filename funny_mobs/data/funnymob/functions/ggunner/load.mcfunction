@@ -1,2 +1,0 @@
-scoreboard objectives add pfm_ggunner_particle_timer dummy
-#scoreboard objectives add pfm_ggunner_
