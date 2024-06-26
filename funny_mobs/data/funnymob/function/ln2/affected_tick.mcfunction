@@ -8,4 +8,9 @@ particle minecraft:poof ~ ~ ~ 0 1 0 0 1 force
 
 execute as @s[scores={pfm_ln2_posx=10..}] at @s run particle minecraft:crit ~ ~0.5 ~ 0 0 0 1 3 force
 
-execute as @s run function funnymob:ln2/affected_dist
+execute as @s run function funnymob:ln2/dist_update
+execute as @s run function funnymob:ln2/dist_init
+
+execute if entity @s[type=minecraft:player,scores={pfm_ln2_dist=200..}] run function funnymob:ln2/damage_player
+execute if entity @s[type=!minecraft:player,scores={pfm_ln2_dist=200..}] run function funnymob:ln2/damage_mob
+
