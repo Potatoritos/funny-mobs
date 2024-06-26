@@ -1,3 +1,3 @@
 function funnymob:ln2/tick
 
-execute as @e[type=minecraft:skeleton,tag=pfm_push_stroker] at @s run function funnymob:pstroker/tick
+execute as @e[team=pfm_mob_team] at @s run function funnymob:tick_fm
