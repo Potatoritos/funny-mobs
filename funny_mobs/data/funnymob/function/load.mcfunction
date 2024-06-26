@@ -4,8 +4,13 @@ function funnymob:util/load
 function funnymob:pstroker/load
 
 scoreboard objectives add pfm_flashing dummy
+scoreboard objectives add pfm_mob_hp dummy
+scoreboard objectives add pfm_settings dummy
+
+scoreboard players add initialized pfm_settings 0
+execute if score initialized pfm_settings matches 0 run function funnymob:settings/reset
 
 team add pfm_mob_team
 team modify pfm_mob_team color red
 team modify pfm_mob_team friendlyFire false
-tellraw @a {"text":"Potatoritos' Funny Mobs v3 loaded","color":"red"}
+tellraw @a {"text":"Potatoritos' Funny Mobs v3 loaded.","color":"aqua"}
