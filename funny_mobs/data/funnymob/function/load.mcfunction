@@ -1,7 +1,8 @@
 function funnymob:math/load
-function funnymob:ln2/load
 function funnymob:util/load
+function funnymob:ln2/load
 function funnymob:pstroker/load
+function funnymob:celsius/load
 
 scoreboard objectives add pfm_flashing dummy
 scoreboard objectives add pfm_mob_hp dummy
