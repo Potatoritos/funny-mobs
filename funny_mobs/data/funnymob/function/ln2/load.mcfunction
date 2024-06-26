@@ -11,3 +11,7 @@ scoreboard objectives add pfm_ln2_prevz dummy
 scoreboard objectives add pfm_ln2_sound_timer dummy
 
 scoreboard objectives add pfm_ln2_used minecraft.used:minecraft.bow
+
+scoreboard objectives add pfm_ln2_cooldown dummy
+scoreboard objectives add pfm_ln2_cooldown_secs dummy
+scoreboard objectives add pfm_ln2_cooldown_dec dummy
