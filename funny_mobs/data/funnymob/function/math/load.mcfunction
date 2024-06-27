@@ -1,6 +1,7 @@
 scoreboard objectives add pfm_math dummy
 scoreboard players set 1 pfm_math 1
 scoreboard players set 2 pfm_math 2
+scoreboard players set 3 pfm_math 3
 scoreboard players set 4 pfm_math 4
 scoreboard players set 5 pfm_math 5
 scoreboard players set 10 pfm_math 10
