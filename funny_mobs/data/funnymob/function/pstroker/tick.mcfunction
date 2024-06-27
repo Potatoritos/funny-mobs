@@ -1,4 +1,5 @@
-function funnymob:ln2/hold_tick
+function funnymob:ln2/shoot
+particle minecraft:poof ~ ~0.3 ~ 0 0 0 0 1 force
 
 effect clear @s minecraft:fire_resistance
 effect give @s minecraft:fire_resistance 1 0 true
