@@ -7,6 +7,7 @@ scoreboard players set 5 pfm_math 5
 scoreboard players set 10 pfm_math 10
 scoreboard players set 15 pfm_math 15
 scoreboard players set 20 pfm_math 20
+scoreboard players set 24 pfm_math 24
 scoreboard players set 30 pfm_math 30
 scoreboard players set 40 pfm_math 40
 scoreboard players set 50 pfm_math 50
