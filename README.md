@@ -1,6 +1,6 @@
 # Funny Mobs
 
-Adds custom mobs, bosses, and combat items to Minecraft 1.21+.
+Adds custom mobs, bosses, and combat items to Minecraft (1.21).
 
 # Items
 
