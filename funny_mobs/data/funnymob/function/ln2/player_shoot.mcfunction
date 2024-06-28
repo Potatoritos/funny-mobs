@@ -1,3 +1,3 @@
-execute if entity @e[type=minecraft:arrow,tag=!pfm_ln2_arrow,distance=..2] run scoreboard players operation @s pfm_ln2_cooldown = ln2_cooldown pfm_settings
+execute if entity @e[type=minecraft:arrow,tag=!pfm_ln2_arrow,distance=..2] run function funnymob:ln2/reset_cooldown
 function funnymob:ln2/shoot
 
