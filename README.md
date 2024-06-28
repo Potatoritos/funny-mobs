@@ -78,8 +78,12 @@ TODO: Description
 Drops: Liquid Nitrogen Cannon
 </details>
 
-# Technical details
+# Technical
 
 All funny mobs are /tagged with `pfm_mob` and are in the `pfm_mob_team` /team.
 
 TODO
+
+# Module Credits
+
+This datapack uses HP control and HP display modules made by [Cloud Wolf](https://www.youtube.com/channel/UCZnBqVITQ0dloqUU0fGxY3g)
