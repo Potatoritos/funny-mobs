@@ -1,0 +1,8 @@
+scoreboard objectives add pfm_parry_used minecraft.used:minecraft.warped_fungus_on_a_stick
+
+scoreboard objectives add pfm_parry_timer dummy
+scoreboard objectives add pfm_parry_parried_timer dummy
+
+scoreboard objectives add pfm_parry_cooldown dummy
+scoreboard objectives add pfm_parry_cooldown_secs dummy
+scoreboard objectives add pfm_parry_cooldown_dec dummy

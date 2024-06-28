@@ -1,6 +1,7 @@
 function funnymob:math/load
 function funnymob:util/load
 function funnymob:ln2/load
+function funnymob:parry/load
 function funnymob:pstroker/load
 function funnymob:celsius/load
 
