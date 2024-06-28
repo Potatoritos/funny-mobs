@@ -36,16 +36,19 @@ To obtain: Kill Push Stroker EX
 
 # Mobs
 
+<details>
 <summary>Animated Spikes</summary>
 <br>
 Cactus given sentience. When hit, deals 3 hearts of True Damage to all players in a 6m radius.
 </details>
 
+<details>
 <summary>Push Stroker</summary>
 <br>
 This entity wields a Liquid Nitrogen Cannon.
 </details>
 
+<details>
 <summary>Arsonist</summary>
 <br>
 Unleashes flames in a 7.5m radius every 15s.
@@ -53,6 +56,7 @@ Unleashes flames in a 7.5m radius every 15s.
 
 # Bosses
 
+<details>
 <summary>Celsius</summary>
 <br>
 TODO: Description
@@ -60,6 +64,7 @@ TODO: Description
 Drops: Parry
 </details>
 
+<details>
 <summary>Push Stroker EX</summary>
 <br>
 TODO: Description
