@@ -1,15 +1,15 @@
 # Funny Mobs
 
-Adds custom mobs, bosses, and combat items to Minecraft (1.21).
+A collection of custom mobs, bosses, and combat items for Minecraft 1.21.
 
 # Items
 
 <details>
-<summary>Parry</summary>
+<summary>Parry (Mk.1/Mk.2)</summary>
 <br>
 Right clicking while in the main or off hand starts a parry.
 
-In this state, all damage (with the exception of True Damage) is nullified.
+In this state, all damage (with the exception of True Damage) and knockback is nullified.
 
 The parry lasts for 0.5s. Getting hit within this time ends the parry and grants the user:
 - Strength III for 2s
@@ -17,9 +17,9 @@ The parry lasts for 0.5s. Getting hit within this time ends the parry and grants
 - Fire resistance for 6s
 - Immunity to the Liquid Nitrogen effect for 6s
 
-Cooldown: 15s
+Cooldown: 18s (Mk.1) / 12s (Mk.2)
 
-To obtain: Kill Celsius 233
+To Obtain: 50% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
 </details>
 
 <details>
@@ -39,7 +39,7 @@ To obtain: Kill Push Stroker EX
 <details>
 <summary>Animated Spikes</summary>
 <br>
-Cactus given sentience. When hit, deals 3 hearts of True Damage to all players in a 6m radius.
+Cactus given sentience. When hit, deals 3 hearts of True Damage to all players within a 6m radius.
 </details>
 
 <details>
@@ -51,7 +51,9 @@ This entity wields a Liquid Nitrogen Cannon.
 <details>
 <summary>Arsonist</summary>
 <br>
-Unleashes flames in a 7.5m radius every 15s.
+Unleashes flames in a 7.5m radius for 1.5s every 15s. Players within this radius take 3.3 hearts of damage per second.
+
+Drops: Parry Mk.1
 </details>
 
 # Bosses
@@ -61,7 +63,7 @@ Unleashes flames in a 7.5m radius every 15s.
 <br>
 TODO: Description
 
-Drops: Parry
+Drops: Parry Mk.2
 </details>
 
 <details>
