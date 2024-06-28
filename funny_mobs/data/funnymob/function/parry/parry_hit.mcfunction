@@ -7,5 +7,6 @@ title @s title ""
 effect give @s minecraft:speed 2 2 true
 effect give @s minecraft:strength 2 2 true
 effect give @s minecraft:resistance 2 4 true
+effect give @s minecraft:fire_resistance 6 115 true
 
 scoreboard players set @s pfm_parry_parried_timer 20
