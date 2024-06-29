@@ -1,5 +1,6 @@
 function funnymob:math/load
 function funnymob:util/load
+function funnymob:spawn/load
 function funnymob:ln2/load
 function funnymob:parry/load
 function funnymob:pstroker/load
@@ -20,3 +21,5 @@ team add pfm_mob_team
 team modify pfm_mob_team color red
 team modify pfm_mob_team friendlyFire false
 tellraw @a {"text":"Potatoritos' Funny Mobs v3 loaded.","color":"aqua"}
+
+schedule function funnymob:spawn/tick_1s 1s
