@@ -53,7 +53,7 @@ Summons Push Stroker EX.
 To Obtain: Crafting / Push Stroker drops
 
 Crafting recipe (shapeless):
-- Blue ice
+- Blue Ice
 - Bow
 - Diamond
 - Egg
@@ -68,13 +68,13 @@ Drops: None
 ## Push Stroker
 Wields a Liquid Nitrogen Cannon.
 
-Drops: Liquid Nitrogen Cannon Mk.1 (25% chance)
+Drops: Liquid Nitrogen Cannon Mk.1 (25% chance), Frigid Egg (100% chance)
 
 ## Arsonist
 
 Pursues the player with an axe. Every 15s, teleports to the nearest player and unleashes flames in an 8m radius, lasting for 1.5s. Players within this radius take 3.3 hearts of True Damage per second.
 
-Drops: Parry Mk.1 (25% chance)
+Drops: Parry Mk.1 (25% chance), Scorched Egg (100% chance)
 
 # Bosses
 
@@ -96,6 +96,8 @@ Drops: Liquid Nitrogen Cannon
 - `/function funnymob:give/ln2_mk2`
 - `/function funnymob:give/parry_mk1`
 - `/function funnymob:give/parry_mk2`
+- `/function funnymob:give/celsius_egg`
+- `/function funnymob:give/push_stroker_ex_egg`
 
 ## Summon Commands
 
@@ -105,21 +107,25 @@ Drops: Liquid Nitrogen Cannon
 - `/function funnymob:summon/push_stroker`
 - `/function funnymob:summon/push_stroker_ex`
 
+Suffix these commands with `_hell` to spawn hell variants
+
 ## Settings
 
 - `/scoreboard players set natural_spawns pfm_settings [0/1]`
-  - Determines whether funny mobs should spawn naturally
+  - Determines whether funny mobs should spawn naturally (Funny mobs replace 1% of skeletons and zombies)
   - Default: 1 (enabled)
-  - Funny mobs replace 1% of skeletons and zombies
 - `/scoreboard players set hell_mode pfm_settings [0/1]`
-  - With this enabled, funny mobs replace 5% of skeletons and zombies. (4% regular mobs, 1% bosses)
+  - Doubles funny mob spawn rate
+  - Funny mobs are replaced with their hell variant (buffed stats)
+  - Hell-variant bosses start spawning naturally (replacing 1% of skeletons and zombies)
+  - This setting has no effect if `natural_spawns` is disabled
   - Default: 0 (disabled)
 - `/function funnymob:settings/reset`
   - Resets settings
 
 ## Other details
 
-- All funny mobs are /tagged with `pfm_mob` and are in the `pfm_mob_team` /team.
+- All funny mobs are tagged with `pfm_mob` and are in the `pfm_mob_team` team.
 - Fire aspect with amplifier 107 is used to represent the liquid nitrogen effect.
 
 TODO
