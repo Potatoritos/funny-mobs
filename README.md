@@ -4,9 +4,7 @@ A collection of custom mobs, bosses, and combat items for Minecraft 1.21.
 
 # Items
 
-<details>
-<summary>Parry (Mk.1 / Mk.2)</summary>
-<br>
+## Parry (Mk.1 / Mk.2)
 Right clicking while in the main or off hand starts a parry.
 
 In this state, damage and knockback are nullified.
@@ -22,11 +20,8 @@ Note that True Damage cannot be parried.
 Cooldown: 18s (Mk.1) / 13s (Mk.2)
 
 To Obtain: 25% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
-</details>
 
-<details>
-<summary>Liquid Nitrogen Cannon (Mk.1 / Mk.2)</summary>
-<br>
+## Liquid Nitrogen Cannon (Mk.1 / Mk.2)
 Shoots arrows infused with LN2. For 6s, hit targets are dealt 0.25 hearts of True Damage for every metre travelled.
 
 This effect does not work on bosses.
@@ -36,59 +31,70 @@ Enchantments: Punch II (Mk.1) / Punch III (Mk.2)
 Cooldown: 20s (Mk.1) / 14s (Mk.2)
 
 To obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
-</details>
 
 # Mobs
 
-<details>
-<summary>Animated Spikes</summary>
-<br>
-Cactus given sentience. When hit, deals 3 hearts of True Damage to all players within a 6m radius.
-</details>
+## Animated Spikes
+Ambles towards the player. When hit, deals 3 hearts of True Damage to all players within a 6m radius.
 
-<details>
-<summary>Push Stroker</summary>
-<br>
-This entity wields a Liquid Nitrogen Cannon.
+Drops: None
+
+## Push Stroker
+Wields a Liquid Nitrogen Cannon.
 
 Drops: Liquid Nitrogen Cannon Mk.1 (25% chance)
-</details>
 
-<details>
-<summary>Arsonist</summary>
-<br>
-Unleashes flames in a 7.5m radius for 1.5s every 15s. Players within this radius take 3.3 hearts of damage per second.
+## Arsonist
+
+Pursues the player with an axe. Every 15s, teleports to the nearest player and unleashes flames in a 8m radius, lasting for 1.5s. Players within this radius take 3.3 hearts of damage per second.
 
 Drops: Parry Mk.1 (25% chance)
-</details>
 
 # Bosses
 
-<details>
-<summary>Celsius 233</summary>
-<br>
+## Celsius 233
 TODO: Description
 
 Drops: Parry Mk.2
-</details>
 
-<details>
-<summary>Push Stroker EX</summary>
-<br>
+## Push Stroker EX
 TODO: Description
 
 Drops: Liquid Nitrogen Cannon
-</details>
 
 # Technical
 
-<details>
-<summary>Expand</summary>
-<br>
-All funny mobs are /tagged with `pfm_mob` and are in the `pfm_mob_team` /team.
+## Give Commands
+
+- `/function funnymob:give/ln2_mk1`
+- `/function funnymob:give/ln2_mk2`
+- `/function funnymob:give/parry_mk1`
+- `/function funnymob:give/parry_mk2`
+
+## Summon Commands
+
+- `/function funnymob:summon/animated_spikes`
+- `/function funnymob:summon/arsonist`
+- `/function funnymob:summon/celsius`
+- `/function funnymob:summon/push_stroker`
+- `/function funnymob:summon/push_stroker_ex`
+
+## Settings
+
+- `/scoreboard players set natural_spawns pfm_settings [0/1]`
+  - Determines whether funny mobs should spawn naturally
+  - Default: 1 (enabled)
+  - Funny mobs replace 1% of skeletons and zombies
+- `/scoreboard players set hell_mode pfm_settings [0/1]`
+  - With this enabled, funny mobs replace 5% of skeletons and zombies. (4% regular mobs, 1% bosses)
+  - Default: 0 (disabled)
+
+## Other details
+
+- All funny mobs are /tagged with `pfm_mob` and are in the `pfm_mob_team` /team.
+- Fire aspect with amplifier 107 is used to represent the liquid nitrogen effect.
 
 TODO
-</details>
 
 # Module Credits
 
