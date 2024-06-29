@@ -10,4 +10,4 @@ execute as @e[type=minecraft:boat,distance=..1] at @s run function funnymob:util
 execute as @e[type=minecraft:minecart,distance=..1] at @s run function funnymob:util/explode_kill
 execute as @e[type=minecraft:iron_golem,distance=..2.5] at @s run function funnymob:util/explode_kill
 
-
+execute if block ~ ~ ~ minecraft:water run tp @p[distance=..100]
