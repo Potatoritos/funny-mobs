@@ -22,7 +22,9 @@ Cooldown: 18s (Mk.1) / 13s (Mk.2)
 To Obtain: 25% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
 
 ## Liquid Nitrogen Cannon (Mk.1 / Mk.2)
-Shoots arrows infused with LN2. For 6s, hit targets are dealt 0.25 hearts of True Damage for every metre travelled.
+Shoots arrows infused with LN2. Hit targets will gain the Liquid Nitrogen effect for 6s.
+
+Under this effect, entities are dealt True Damage proportional to the distance they travel—specifically, 0.25 hearts per metre.
 
 This effect does not work on bosses.
 
@@ -35,7 +37,7 @@ To obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop f
 # Mobs
 
 ## Animated Spikes
-Ambles towards the player. When hit, deals 3 hearts of True Damage to all players within a 6m radius.
+Slowly ambles towards the player. When hit, deals 3 hearts of True Damage to all players within a 6m radius.
 
 Drops: None
 
@@ -98,4 +100,4 @@ TODO
 
 # Module Credits
 
-This datapack uses HP control and HP display modules made by [Cloud Wolf](https://www.youtube.com/channel/UCZnBqVITQ0dloqUU0fGxY3g)
+This datapack uses HP control and HP display modules made by [Cloud Wolf](https://www.youtube.com/channel/UCZnBqVITQ0dloqUU0fGxY3g).
