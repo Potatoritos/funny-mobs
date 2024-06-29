@@ -19,7 +19,7 @@ The parry lasts for 0.3s. Getting hit within this time ends the parry and grants
 
 Note that True Damage cannot be parried.
 
-Cooldown: 16s (Mk.1) / 12s (Mk.2)
+Cooldown: 18s (Mk.1) / 13s (Mk.2)
 
 To Obtain: 25% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
 </details>
@@ -33,7 +33,7 @@ This effect does not work on bosses.
 
 Enchantments: Punch II (Mk.1) / Punch III (Mk.2)
 
-Cooldown: 16s (Mk.1) / 12s (Mk.2)
+Cooldown: 20s (Mk.1) / 14s (Mk.2)
 
 To obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
 </details>
