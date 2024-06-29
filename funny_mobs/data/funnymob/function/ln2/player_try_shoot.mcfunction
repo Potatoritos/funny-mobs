@@ -1,8 +1,8 @@
 scoreboard players reset @s pfm_ln2_used
+scoreboard players add @s pfm_ln2_cooldown 0
 # execute if score @s pfm_ln2_cooldown matches 1.. run function funnymob:ln2/display_cooldown
 execute if score @s pfm_ln2_cooldown matches ..0 run function funnymob:ln2/player_shoot
-execute if score @s pfm_ln2_cooldown matches 1.. run execute as @e[type=minecraft:arrow,tag=!pfm_ln2_arrow,distance=..2,sort=nearest,limit=1] run kill @s
-execute if score @s pfm_ln2_cooldown matches 1.. run function funnymob:ln2/display_cooldown
+execute if score @s pfm_ln2_cooldown matches 1.. run function funnymob:ln2/player_fail_shoot
 
 
 
