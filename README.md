@@ -65,7 +65,7 @@ Drops: Parry Mk.1 (25% chance)
 # Bosses
 
 <details>
-<summary>Celsius</summary>
+<summary>Celsius 233</summary>
 <br>
 TODO: Description
 
@@ -82,9 +82,13 @@ Drops: Liquid Nitrogen Cannon
 
 # Technical
 
+<details>
+<summary>Expand</summary>
+<br>
 All funny mobs are /tagged with `pfm_mob` and are in the `pfm_mob_team` /team.
 
 TODO
+</details>
 
 # Module Credits
 
