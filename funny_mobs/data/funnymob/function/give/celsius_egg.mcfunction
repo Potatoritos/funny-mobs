@@ -1,0 +1,1 @@
+give @s enderman_spawn_egg[custom_name='{"color":"red","italic":false,"text":"Scorched Egg"}',lore=['{"color":"gray","italic":false,"text":"Summons Celsius 233."}','{"color":"gray","italic":false,"text":"Drops: Parry Mk.2"}'],entity_data={id:"minecraft:marker",Tags:["pfm_spawn_celsius"]}] 1

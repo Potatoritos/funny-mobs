@@ -48,7 +48,7 @@ Drops: Liquid Nitrogen Cannon Mk.1 (25% chance)
 
 ## Arsonist
 
-Pursues the player with an axe. Every 15s, teleports to the nearest player and unleashes flames in an 8m radius, lasting for 1.5s. Players within this radius take 3.3 hearts of damage per second.
+Pursues the player with an axe. Every 15s, teleports to the nearest player and unleashes flames in an 8m radius, lasting for 1.5s. Players within this radius take 3.3 hearts of True Damage per second.
 
 Drops: Parry Mk.1 (25% chance)
 
