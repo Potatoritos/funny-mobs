@@ -6,6 +6,31 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:enderman_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"red\",\"italic\":false,\"text\":\"Scorched Egg\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Summons Celsius 233.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Drops: Parry Mk.2\"}"
+                ],
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": ["pfm_spawn_celsius"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
             {

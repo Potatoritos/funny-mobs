@@ -32,7 +32,31 @@ Enchantments: Punch II (Mk.1) / Punch III (Mk.2)
 
 Cooldown: 20s (Mk.1) / 14s (Mk.2)
 
-To obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
+To Obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
+
+## Scorched Egg
+
+Summons Celsius 233.
+
+To Obtain: Crafting / Arsonist drops
+
+Crafting recipe (shapeless):
+- Stone Axe
+- Flint and Steel
+- Diamond
+- Egg
+
+## Frigid Egg
+
+Summons Push Stroker EX.
+
+To Obtain: Crafting / Push Stroker drops
+
+Crafting recipe (shapeless):
+- Blue ice
+- Bow
+- Diamond
+- Egg
 
 # Mobs
 
