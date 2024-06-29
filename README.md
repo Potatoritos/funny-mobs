@@ -1,6 +1,6 @@
 # Funny Mobs
 
-A collection of custom mobs, bosses, and combat items for Minecraft 1.21.
+Custom mobs, bosses, and combat items for Minecraft 1.21.
 
 # Items
 
@@ -19,7 +19,7 @@ Note that True Damage cannot be parried.
 
 Cooldown: 18s (Mk.1) / 13s (Mk.2)
 
-To Obtain: 25% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
+To obtain: 25% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
 
 ## Liquid Nitrogen Cannon (Mk.1 / Mk.2)
 Shoots arrows infused with LN2. Hit targets will gain the Liquid Nitrogen effect for 6s.
@@ -32,13 +32,13 @@ Enchantments: Punch II (Mk.1) / Punch III (Mk.2)
 
 Cooldown: 20s (Mk.1) / 14s (Mk.2)
 
-To Obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
+To obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
 
 ## Scorched Egg
 
 Summons Celsius 233.
 
-To Obtain: Crafting / Arsonist drops
+To obtain: Crafting / Arsonist drops
 
 Crafting recipe (shapeless):
 - Stone Axe
@@ -50,7 +50,7 @@ Crafting recipe (shapeless):
 
 Summons Push Stroker EX.
 
-To Obtain: Crafting / Push Stroker drops
+To obtain: Crafting / Push Stroker drops
 
 Crafting recipe (shapeless):
 - Blue Ice
@@ -78,7 +78,7 @@ Drops: Parry Mk.1 (25% chance), Scorched Egg (100% chance)
 
 ## Glue Gunner
 
-Not yet implemented.
+(Not yet implemented)
 
 # Bosses
 
@@ -90,8 +90,6 @@ Ability 2: Burns all players in a 14m radius for 3.3 hearts of True Damage per s
 Drops: Parry Mk.2
 
 ## Push Stroker EX
-Ability 1: Kills the player.
-
 Drops: Liquid Nitrogen Cannon Mk.2
 
 # Technical
