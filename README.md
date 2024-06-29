@@ -1,6 +1,6 @@
 # Funny Mobs
 
-Custom mobs, bosses, and combat items for Minecraft 1.21.
+Custom bosses, minibosses and combat items for Minecraft 1.21.
 
 # Items
 
@@ -58,7 +58,7 @@ Crafting recipe (shapeless):
 - Diamond
 - Egg
 
-# Mobs
+# Minibosses
 
 ## Animated Spikes
 Slowly ambles towards the player. When hit, deals 3 hearts of True Damage to all players within a 6m radius.
