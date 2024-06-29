@@ -48,7 +48,7 @@ Drops: Liquid Nitrogen Cannon Mk.1 (25% chance)
 
 ## Arsonist
 
-Pursues the player with an axe. Every 15s, teleports to the nearest player and unleashes flames in a 8m radius, lasting for 1.5s. Players within this radius take 3.3 hearts of damage per second.
+Pursues the player with an axe. Every 15s, teleports to the nearest player and unleashes flames in an 8m radius, lasting for 1.5s. Players within this radius take 3.3 hearts of damage per second.
 
 Drops: Parry Mk.1 (25% chance)
 
@@ -90,6 +90,8 @@ Drops: Liquid Nitrogen Cannon
 - `/scoreboard players set hell_mode pfm_settings [0/1]`
   - With this enabled, funny mobs replace 5% of skeletons and zombies. (4% regular mobs, 1% bosses)
   - Default: 0 (disabled)
+- `/function funnymob:settings/reset`
+  - Resets settings
 
 ## Other details
 
