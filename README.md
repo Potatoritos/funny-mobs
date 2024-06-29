@@ -21,7 +21,7 @@ Note that True Damage cannot be parried.
 
 Cooldown: 16s (Mk.1) / 12s (Mk.2)
 
-To Obtain: 33% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
+To Obtain: 25% chance to drop from an Arsonist (Mk.1) / 100% chance to drop from Celsius 233 (Mk.2)
 </details>
 
 <details>
@@ -35,7 +35,7 @@ Enchantments: Punch II (Mk.1) / Punch III (Mk.2)
 
 Cooldown: 16s (Mk.1) / 12s (Mk.2)
 
-To obtain: 33% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
+To obtain: 25% chance to drop from a Push Stroker (Mk.1) / 100% chance to drop from Push Stroker EX (Mk.2)
 </details>
 
 # Mobs
@@ -50,6 +50,8 @@ Cactus given sentience. When hit, deals 3 hearts of True Damage to all players w
 <summary>Push Stroker</summary>
 <br>
 This entity wields a Liquid Nitrogen Cannon.
+
+Drops: Liquid Nitrogen Cannon Mk.1 (25% chance)
 </details>
 
 <details>
@@ -57,7 +59,7 @@ This entity wields a Liquid Nitrogen Cannon.
 <br>
 Unleashes flames in a 7.5m radius for 1.5s every 15s. Players within this radius take 3.3 hearts of damage per second.
 
-Drops: Parry Mk.1
+Drops: Parry Mk.1 (25% chance)
 </details>
 
 # Bosses
