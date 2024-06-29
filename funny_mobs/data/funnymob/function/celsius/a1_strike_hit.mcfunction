@@ -6,5 +6,5 @@ scoreboard players operation @s hp_dmg += 4 pfm_math
 execute as @s[predicate=funnymob:is_burning] at @s run scoreboard players operation @s hp_dmg += 2 pfm_math
 title @s times 0 1s 0
 title @s subtitle {"text":"NOT BLOCKED!","color":"red"}
-title @s actionbar {"text":"You are on fire - Celsius' damage increased","color":"red"}
+# title @s actionbar {"text":"You are on fire - Celsius' damage increased","color":"red"}
 title @s title ""

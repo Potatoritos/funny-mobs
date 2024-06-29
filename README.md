@@ -76,17 +76,23 @@ Pursues the player with an axe. Every 15s, teleports to the nearest player and u
 
 Drops: Parry Mk.1 (25% chance), Scorched Egg (100% chance)
 
+## Glue Gunner
+
+Not yet implemented.
+
 # Bosses
 
 ## Celsius 233
-TODO: Description
+Ability 1: Teleports behind the player 3/4/6/8 times when below 200/150/100/50 HP and strikes them for 2 hearts of True Damage (3 hearts if the player is on fire). This attack can be blocked by facing Celsius.
+
+Ability 2: Burns all players in a 14m radius for 3.3 hearts of True Damage per second.
 
 Drops: Parry Mk.2
 
 ## Push Stroker EX
-TODO: Description
+Ability 1: Kills the player.
 
-Drops: Liquid Nitrogen Cannon
+Drops: Liquid Nitrogen Cannon Mk.2
 
 # Technical
 
@@ -112,12 +118,12 @@ Suffix these commands with `_hell` to spawn hell variants
 ## Settings
 
 - `/scoreboard players set natural_spawns pfm_settings [0/1]`
-  - Determines whether funny mobs should spawn naturally (Funny mobs replace 1% of skeletons and zombies)
+  - Determines whether funny mobs should spawn naturally (5% of zombies are replaced with Animated Spikes and Arsonists, 2.5% of skeletons are replaced with Push Strokers)
   - Default: 1 (enabled)
 - `/scoreboard players set hell_mode pfm_settings [0/1]`
   - Doubles funny mob spawn rate
-  - Funny mobs are replaced with their hell variant (buffed stats)
-  - Hell-variant bosses start spawning naturally (replacing 1% of skeletons and zombies)
+  - Funny mobs are replaced with their hell variant (artificial difficulty increase)
+  - Hell-variant bosses start spawning naturally (replacing another 2.5% of skeletons and zombies)
   - This setting has no effect if `natural_spawns` is disabled
   - Default: 0 (disabled)
 - `/function funnymob:settings/reset`
@@ -127,8 +133,6 @@ Suffix these commands with `_hell` to spawn hell variants
 
 - All funny mobs are tagged with `pfm_mob` and are in the `pfm_mob_team` team.
 - Fire aspect with amplifier 107 is used to represent the liquid nitrogen effect.
-
-TODO
 
 # Module Credits
 
