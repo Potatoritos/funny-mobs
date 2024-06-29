@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "PARRY HIT!",
+    "description": "Kill a mob after parrying them",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "funnymob:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "effects": {
+              "minecraft:strength": {
+                "amplifier": 6
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
