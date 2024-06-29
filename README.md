@@ -61,7 +61,7 @@ Crafting recipe (shapeless):
 # Minibosses
 
 ## Animated Spikes
-Slowly ambles towards the player. When hit, deals 3 hearts of True Damage to all players within a 6m radius.
+~~Slowly ambles~~ Walks towards the player. When hit, deals 3 hearts of True Damage to all players within a 4m radius.
 
 Drops: None
 
