@@ -4,6 +4,7 @@ effect clear @s minecraft:absorption
 
 # tellraw @a [{"text":"distance: "},{"score":{"name":"@s","objective":"pfm_ln2_dist"}}]
 
+scoreboard players set @s hp_dmg 0
 scoreboard players operation @s pfm_ln2_dist /= 200 pfm_math
 scoreboard players operation @s hp_dmg += @s pfm_ln2_dist
 
